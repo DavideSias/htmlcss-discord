@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+.nav-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.links p{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    border-radius: 2em;
+    padding: 0.5rem;
+}
+
+.head-container{
+    color: white;
+    text-align: center;
+}
+
+.head-container h1{
+    margin-top: 7rem;
+}
+
+.headline{
+    width: 39rem;
+    margin: auto;
+    margin-top: 2rem;
+    line-height: 1.7rem;
+}
+
+.headline-button{
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 5rem;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.headline-button.white{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    margin-right: 1rem;
+}
+
+.headline-button.black{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.downarrow{
+    padding-right: 3px;
+}
