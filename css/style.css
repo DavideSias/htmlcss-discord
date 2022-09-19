@@ -11,13 +11,13 @@ body{
 header{
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    height: 670px;
 }
 
 .nav-container{
     display: flex;
     justify-content:space-around;
-    padding: 1rem;
-    font-size: 0.9rem;
+    padding: 1.5rem;
 }
 
 .links{
@@ -29,6 +29,7 @@ header{
 .links p{
     padding-left: 1em;
     padding-right: 1em;
+    
 }
 
 .login{
@@ -36,6 +37,7 @@ header{
     color: black;
     border-radius: 2em;
     padding: 0.5rem;
+    font-size: 0.9rem;
 }
 
 .head-container{
@@ -44,20 +46,25 @@ header{
 }
 
 .head-container h1{
-    margin-top: 7rem;
+    margin-top: 10rem;
+    font-size: 50px;
 }
 
 .headline{
-    width: 39rem;
+    width: 49rem;
     margin: auto;
     margin-top: 2rem;
-    line-height: 1.7rem;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+.buttons{
+    line-height: 1.5em;
 }
 
 .headline-button{
     display: inline-block;
-    padding: 0.7rem 1rem;
-    margin-top: 0.6rem;
+    margin-top: 1rem;
     margin-bottom: 5rem;
     background-color: black;
     border: 1px solid black;
@@ -68,15 +75,21 @@ header{
     color: black;
     background-color: white;
     border: 1px solid white;
-    margin-right: 1rem;
+    margin-right: 2rem;
+    padding: 0.6rem 1rem;
+    vertical-align: middle;
 }
 
 .headline-button.black{
     color: white;
     background-color: black;
     border: 1px solid black;
+    padding: 0.7rem 1rem;
+    vertical-align: middle;
 }
 
 .downarrow{
-    padding-right: 3px;
+    margin-right: 5px;
+    font-size: 20px;
+    vertical-align: middle;
 }
