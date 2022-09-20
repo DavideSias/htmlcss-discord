@@ -4,90 +4,104 @@
     box-sizing: border-box;
 }
 
-body{
+html{
     font-family: 'Roboto', sans-serif;
 }
 
 header{
+    background-color: rgb(37, 94, 233);
+    color: white;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 780px;
+    margin: 12em auto;
+}
+
+.button{
+    padding: 0.8rem 1rem;
+    border-radius: 10em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-white{
+    background-color: white;
+    color: black;
+}
+
+.button-black{
+    background-color: black;
+    color: white;
+    margin-left: 2rem;
+}
+
+.nav-menu{
+    height: 4em;
+}
+
+.nav-menu ul {
+    display: flex;
+    height: 100%;
+}
+
+.nav-menu li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu .menu-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1em;
+    margin: 0 0.4em;
+    text-decoration: none;
+    color: white;
+}
+
+/* .nav-menu .menu-link:hover {
+    background-color: aqua;
+} TODO CHANGE HOVER*/
+
+.nav-menu .logo{
+    margin-right: auto
+}
+
+.nav-menu .login{
+    margin-left: auto;
+}
+
+.head-background{
+    padding: 3rem 0 3rem;
     background-image: url('../img/jumbo.png');
     background-size: cover;
 }
 
-.nav-container{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    padding: 1.5rem;
-}
-
-.links{
-    display: flex;
-    color: white;
-}
-
-.links p{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.login{
-    background-color: white;
-    color: black;
-    border-radius: 2em;
-    padding: 0.5rem;
-    font-size: 0.9rem;
-}
-
-.head-container{
-    color: white;
+.head-content{
     text-align: center;
+    color: white;
+    margin-bottom: 6rem;
 }
 
-.head-container h1{
-    margin-top: 10rem;
+.head-content h1{
+    margin-bottom: 1em;
     font-size: 50px;
 }
 
 .headline{
-    width: 49rem;
-    margin: auto;
-    margin-top: 2rem;
     line-height: 2rem;
     font-size: 20px;
+    margin-bottom: 2rem;
 }
 
-.buttons{
-    line-height: 1.5em;
+.fa-down-long{
+    padding-right: .5em;
 }
 
-.headline-button{
-    display: inline-block;
-    margin-top: 1rem;
-    margin-bottom: 11rem;
-    background-color: black;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-
-.headline-button.white{
-    color: black;
-    background-color: white;
-    border: 1px solid white;
-    margin-right: 2rem;
-    padding: 0.6rem 1rem;
-    vertical-align: middle;
-}
-
-.headline-button.black{
-    color: white;
-    background-color: black;
-    border: 1px solid black;
-    padding: 0.7rem 1rem;
-    vertical-align: middle;
-}
-
-.downarrow{
-    margin-right: 5px;
-    font-size: 20px;
-    vertical-align: middle;
-}
