@@ -43,6 +43,7 @@ header{
 
 .nav-menu{
     height: 4em;
+    padding-top: 1em;
 }
 
 .nav-menu ul {
@@ -133,4 +134,41 @@ header{
 
 .grey-background{
     background-color: lightgrey;
+}
+
+.last-item-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.last-item-container h2{
+    font-size: 50px;
+    margin-bottom: .5em;
+}
+
+.last-item-container p{
+    font-size: 20px;
+    line-height: 2rem;
+    padding: 0 7.5em 0;
+}
+
+.stars{
+    margin-top: 2em;
+    padding-bottom: 7em;
+}
+
+.stars h3{
+    font-size: 28px;
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+}
+
+.button-purple{
+    background-color: rgb(114, 137, 218);
+    color: white;
 }
