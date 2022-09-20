@@ -145,13 +145,18 @@ header{
     padding: 0 8em 0 3em;
 }
 
+.wave, .wave-white {
+    margin-bottom: -1rem;
+    margin-top: -5rem;
+}
+
 .second-item{
     flex-direction: row-reverse;
     padding: 5em 0;
 }
 
 .grey-background{
-    background-color: lightgrey;
+    background-color: #F5F5F5;
 }
 
 .last-item-container{
@@ -161,7 +166,6 @@ header{
     max-width: 1300px;
     margin: auto;
     text-align: center;
-    padding-top: 5em;
 }
 
 .last-item-container h2{
