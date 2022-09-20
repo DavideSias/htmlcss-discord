@@ -130,6 +130,10 @@ header{
     margin: 8em auto;
 }
 
+.first-item {
+    padding-bottom: 2em;
+}
+
 .main-container h2{
     font-size: 50px;
     margin-bottom: .5em;
@@ -152,7 +156,6 @@ header{
 
 .second-item{
     flex-direction: row-reverse;
-    padding: 5em 0;
 }
 
 .grey-background{
@@ -166,6 +169,7 @@ header{
     max-width: 1300px;
     margin: auto;
     text-align: center;
+    padding-top: 3rem;
 }
 
 .last-item-container h2{
