@@ -35,6 +35,24 @@ header{
     color: black;
 }
 
+.button-white:hover {
+    color: rgb(114, 137, 218);
+    box-shadow: 3px 3px 10px rgb(114, 137, 218),
+                -3px -3px 10px rgb(114, 137, 218),
+                3px -3px 10px rgb(114, 137, 218),
+                -3px 3px 10px rgb(114, 137, 218)
+}
+
+.button-black:hover {
+    opacity: 0.9;
+    box-shadow: 5px 5px 18px #888888;
+}
+
+.button-purple:hover {
+    opacity: 0.9;
+    box-shadow: 5px 5px 18px #888888;
+}
+
 .button-black{
     background-color: rgb(35, 39, 42);
     color: white;
@@ -67,9 +85,9 @@ header{
     color: white;
 }
 
-/* .nav-menu .menu-link:hover {
-    background-color: aqua;
-} TODO CHANGE HOVER*/
+.nav-menu .menu-link:hover {
+    text-decoration: underline;
+} 
 
 .nav-menu .logo{
     margin-right: auto
@@ -203,8 +221,12 @@ footer{
     line-height: 2em;
 }
 
-.link-list.first{
+.foot-list li:first-child{
     color: rgb(114, 137, 218);
+}
+
+.foot-list .link-list:hover{
+    text-decoration: underline;
 }
 
 .italiano {
