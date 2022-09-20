@@ -172,3 +172,62 @@ header{
     background-color: rgb(114, 137, 218);
     color: white;
 }
+
+footer{
+    background-color: rgb(35, 39, 42);
+}
+
+.foot-container{
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(114, 137, 218);
+}
+
+.social{
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.social h3{
+    font-size: 28px;
+    color: rgb(114, 137, 218);
+    margin-bottom: 1rem;
+}
+
+.foot-list ul{
+    list-style: none;
+    padding: 3rem 0 2em 2rem;
+    line-height: 2em;
+}
+
+.link-list.first{
+    color: rgb(114, 137, 218);
+}
+
+.italiano {
+    width: 20px;
+}
+
+.foot-container a{
+    text-decoration: none;
+    color:white;
+}
+
+.end-foot{
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    height: 8em;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 20px;
+    padding: 1em 1em 1em 0;
+}
