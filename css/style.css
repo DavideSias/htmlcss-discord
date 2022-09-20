@@ -36,7 +36,7 @@ header{
 }
 
 .button-black{
-    background-color: black;
+    background-color: rgb(35, 39, 42);
     color: white;
     margin-left: 2rem;
 }
@@ -105,3 +105,32 @@ header{
     padding-right: .5em;
 }
 
+.main-container{
+    display: flex;
+    max-width: 1300px;
+    margin: 8em auto;
+}
+
+.main-container h2{
+    font-size: 50px;
+    margin-bottom: .5em;
+}
+
+.main-container p{
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.text-content{
+    margin-top: 2em;
+    padding: 0 8em 0 3em;
+}
+
+.second-item{
+    flex-direction: row-reverse;
+    padding: 5em 0;
+}
+
+.grey-background{
+    background-color: lightgrey;
+}
