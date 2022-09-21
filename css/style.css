@@ -115,7 +115,7 @@ header{
 }
 
 .headline{
-    line-height: 2rem;
+    line-height: 1.6;
     font-size: 20px;
     margin-bottom: 2rem;
 }
@@ -141,7 +141,7 @@ header{
 
 .main-container p{
     font-size: 20px;
-    line-height: 2rem;
+    line-height: 1.6;
 }
 
 .text-content{
@@ -179,7 +179,7 @@ header{
 
 .last-item-container p{
     font-size: 20px;
-    line-height: 2rem;
+    line-height: 1.6;
     padding: 0 7.5em 0;
 }
 
@@ -226,7 +226,7 @@ footer{
 .foot-list ul{
     list-style: none;
     padding: 3rem 0 2em 2rem;
-    line-height: 2em;
+    line-height: 1.6;
 }
 
 .foot-list li:first-child{
