@@ -154,6 +154,10 @@ header{
     margin-top: -5rem;
 }
 
+.wave-white{
+    transform: rotateY(180deg);
+}
+
 .second-item{
     flex-direction: row-reverse;
 }
